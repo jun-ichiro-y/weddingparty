@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+
 #title{
     text-align: center;
     font-size: 40px;
@@ -7,7 +10,8 @@
 
 body{
     background-color:whitesmoke;
-    font-family:"BIZ UDPGothic" ;
+    text-align:center ;
+
 }
 #topimg{
     font-size: 30%;
@@ -19,13 +23,31 @@ body{
 #sidebar{
     width: 15%;
     height: 500px;
-    background-color: chartreuse;
+    background-color: rgb(199, 236, 162);
     right:0px;
     text-align: center;
     margin: auto;
     position: fixed;
+    font-family:"Sacramento" ;
 }
+ul {
+    position: relative;
+  }
+  
+ul li {
 
+list-style-type: none!important;
+}
+  
+ 
+.panel{
+width: 100%;
+overflow: hidden;
+position: relative;
+left: 0;
+top: -10px;
+z-index: 100;
+}
 h1{
     margin:auto;
     text-align:center;
@@ -34,10 +56,12 @@ h1{
 }
 
 h2{
-    width: 200px;
-    background-color: blue;
+    width: 20%;
+    height: auto;
+    background-color: rgb(231, 255, 231);
     text-align: center;
     margin: auto;
+    font-family: "M PLUS Rounded 1c";
 }
 article{
     display: flex;
